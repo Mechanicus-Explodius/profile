@@ -2,9 +2,10 @@ body
 {
     background-color: rgb(20,51,6);
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: auto auto;
+    color: rgb(61, 152, 19);
 }
 h1
 {
-   color: rgb(61, 152, 19)
+   color: rgb(61, 152, 19);
 }
