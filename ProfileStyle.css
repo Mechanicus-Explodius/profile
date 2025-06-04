@@ -4,8 +4,37 @@ body
     display: grid;
     grid-template-columns: auto auto;
     color: rgb(61, 152, 19);
+    justify-content: center;
+    
+    margin: 10%;
 }
-h1
+body > div
+{
+    font-size: x-large;
+    border: 2px dotted black;
+    margin: 15px;
+    padding: 5%;
+}
+
+h3
 {
    color: rgb(61, 152, 19);
+    text-align: center;
+   text-decoration: underline;
+}
+.gallery
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+}
+#displayName
+{
+    font-size: 350%;
+       color: rgb(61, 152, 19);
+    text-align: center;
+}
+.titleDis
+{
+    flex-wrap: nowrap;
 }
