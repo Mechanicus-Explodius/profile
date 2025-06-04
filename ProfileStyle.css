@@ -1,9 +1,10 @@
 body
 {
-    background-color: red;
-    color: blue;
+    background-color: rgb(20,51,6);
+    display: grid;
+    grid-template-columns: auto;
 }
 h1
 {
-    color: blue;
+   color: rgb(61, 151, 19)
 }
